@@ -13,17 +13,8 @@ namespace fileServer.Controllers
             string path = "";
             switch (directory?.ToLower().Trim())
             {
-                case "eronildo":
-                    path = "/eronildo";
-                    break;
                 case "rafael":
                     path = "/rafael";
-                    break;
-                case "simone":
-                    path = "/simone";
-                    break;
-                case "rebeca":
-                    path = "/rebeca";
                     break;
                 default:
                     path = "/public";
